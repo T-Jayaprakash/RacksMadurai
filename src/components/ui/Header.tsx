@@ -3,7 +3,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { siteConfig } from '@/lib/seo';
 
 const navLinks = [
@@ -42,14 +41,9 @@ export function Header() {
                     <div className="flex items-center justify-between">
                         {/* Logo */}
                         <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-                            <Image
-                                src="/images/logo.png"
-                                alt="Racks Madurai Logo"
-                                width={120}
-                                height={50}
-                                className="h-10 md:h-12 w-auto"
-                                priority
-                            />
+                            <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent" style={{ fontFamily: 'var(--font-space)' }}>
+                                Racks Madurai
+                            </span>
                         </Link>
 
                         {/* Desktop Navigation */}

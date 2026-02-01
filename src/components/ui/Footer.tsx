@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { siteConfig } from '@/lib/seo';
 import { productCategories } from '@/lib/products';
 import { districts } from '@/lib/districts';
@@ -17,13 +16,9 @@ export function Footer() {
                     {/* Company Info */}
                     <div>
                         <div className="mb-6">
-                            <Image
-                                src="/images/logo.png"
-                                alt="Racks Madurai Logo"
-                                width={150}
-                                height={60}
-                                className="h-14 w-auto"
-                            />
+                            <span className="text-3xl font-bold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent" style={{ fontFamily: 'var(--font-space)' }}>
+                                Racks Madurai
+                            </span>
                         </div>
                         <p className="text-slate-400 mb-6 leading-relaxed">
                             Leading rack manufacturing and display solution company serving all 38 districts of Tamil Nadu with complete design, manufacturing, supply, and installation services.
