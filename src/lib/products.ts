@@ -1,4 +1,4 @@
-// Racks Madurai Complete Product Catalog
+// AK Racks Complete Product Catalog
 
 export interface Product {
     id: string;
@@ -49,17 +49,17 @@ export const productCategories: ProductCategory[] = [
         description: 'Premium display racks designed for supermarkets with maximum visibility and easy customer access.',
         image: '/images/supermarket-rack-modern.png',
         products: [
-            { id: 'sm-1', name: 'Corner Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Space-efficient corner display solution', image: '/images/gallery/supermarket-racks/12Corner Rack.JPG' },
-            { id: 'sm-2', name: 'Wall Channel Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Wall-mounted channel rack system', image: '/images/gallery/supermarket-racks/8Wall Channel Rack.JPG' },
-            { id: 'sm-3', name: 'Reverse Corner Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Reverse corner optimization rack', image: '/images/gallery/supermarket-racks/13Reverse Corner Rack.jpg' },
-            { id: 'sm-4', name: 'Wall Rack (Aluminium Stopper)', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Wall rack with aluminium stoppers', image: '/images/gallery/supermarket-racks/1Wall Rack (Aluminium Stopper).JPG' },
-            { id: 'sm-5', name: 'Center Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Double-sided center aisle rack', image: '/images/gallery/supermarket-racks/10Center Rack.JPG' },
-            { id: 'sm-6', name: 'Hook Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Versatile hook display system', image: '/images/gallery/supermarket-racks/11Hook Rack.JPG' },
-            { id: 'sm-7', name: 'Masala Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Specialized rack for spices and masalas', image: '/images/gallery/supermarket-racks/14Masala Rack.JPG' },
-            { id: 'sm-8', name: 'Oil Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Heavy-duty rack for oil bottles', image: '/images/gallery/supermarket-racks/15Oil Rack.JPG' },
-            { id: 'sm-9', name: 'Snacks Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Eye-level snacks display rack', image: '/images/gallery/supermarket-racks/17Snacks Rack.JPG' },
-            { id: 'sm-10', name: 'Wall Rack (Aluminium Mesh Stopper)', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Wall rack with mesh stoppers', image: '/images/gallery/supermarket-racks/3Wall Rack (Aluminum Mesh Stopper).jpg' },
-            { id: 'sm-11', name: 'Wall Rack (High Rise Aluminium Stopper)', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'High-rise wall display rack', image: '/images/gallery/supermarket-racks/4Wall Rack (High Rise Aluminum Stopper).JPG' },
+            { id: 'sm-1', name: 'Corner Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Space-efficient corner display solution', image: '/images/gallery/supermarket-racks/corner-rack-new.png' },
+            { id: 'sm-2', name: 'Wall Channel Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Wall-mounted channel rack system', image: '/images/gallery/supermarket-racks/wall-channel-rack-new.jpg' },
+            { id: 'sm-3', name: 'Reverse Corner Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Reverse corner optimization rack', image: '/images/gallery/supermarket-racks/reverse-corner-rack-new.png' },
+            { id: 'sm-4', name: 'Wall Rack (Aluminium Stopper)', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Wall rack with aluminium stoppers', image: '/images/gallery/supermarket-racks/wall-rack-aluminium-stopper-new.png' },
+            { id: 'sm-5', name: 'Center Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Double-sided center aisle rack', image: '/images/gallery/supermarket-racks/center-rack-new.png' },
+            { id: 'sm-6', name: 'Hook Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Versatile hook display system', image: '/images/gallery/supermarket-racks/hook-rack-new.png' },
+            { id: 'sm-7', name: 'Masala Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Specialized rack for spices and masalas', image: '/images/gallery/supermarket-racks/masala-rack-new.png' },
+            { id: 'sm-8', name: 'Oil Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Heavy-duty rack for oil bottles', image: '/images/gallery/supermarket-racks/oil-rack-new.png' },
+            { id: 'sm-9', name: 'Snacks Rack', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Eye-level snacks display rack', image: '/images/gallery/supermarket-racks/snacks-rack-new.png' },
+            { id: 'sm-10', name: 'Wall Rack (Aluminium Mesh Stopper)', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Wall rack with mesh stoppers', image: '/images/gallery/supermarket-racks/wall-rack-mesh-stopper-new.png' },
+            { id: 'sm-11', name: 'Wall Rack (High Rise Aluminium Stopper)', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'High-rise wall display rack', image: '/images/gallery/supermarket-racks/wall-rack-high-rise-stopper-new.png' },
             { id: 'sm-12', name: 'Wall Rack (Data Strip)', category: 'Supermarket Racks', categorySlug: 'supermarket-racks', description: 'Wall rack with data strip for pricing', image: '/images/gallery/supermarket-racks/6Wall Rack (Data Strip).JPG' },
         ]
     },
