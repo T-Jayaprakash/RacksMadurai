@@ -83,7 +83,7 @@ export const productCategories: ProductCategory[] = [
         description: 'Specialized racks designed for fresh produce display with optimal ventilation and visibility.',
         image: '/images/fruit-vegetable-rack.png',
         products: [
-            { id: 'fv-1', name: 'Frame & Plastic Tray Fruit & Vegetable Rack', category: 'Fruit & Vegetable Racks', categorySlug: 'fruit-vegetable-racks', description: 'Durable plastic tray system', image: '/images/gallery/fruit-vegetable-racks/IMG-20161230-WA0043.jpg' },
+            { id: 'fv-1', name: 'Frame & Plastic Tray Fruit & Vegetable Rack', category: 'Fruit & Vegetable Racks', categorySlug: 'fruit-vegetable-racks', description: 'Durable plastic tray system', image: '/images/gallery/fruit-vegetable-racks/fruit-vegetable-rack-clean.png' },
             { id: 'fv-2', name: 'Mirror & SS Tray Fruit & Vegetable Rack', category: 'Fruit & Vegetable Racks', categorySlug: 'fruit-vegetable-racks', description: 'Premium stainless steel tray with mirror finish', image: '/images/gallery/fruit-vegetable-racks/IMG-20231227-WA0009.jpg' },
         ]
     },

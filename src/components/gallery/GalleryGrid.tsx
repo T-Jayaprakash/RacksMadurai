@@ -137,7 +137,7 @@ export function GalleryGrid({ images }: GalleryGridProps) {
 
 // Gallery Images Data
 export const galleryImages: GalleryImage[] = [
-    { src: '/images/gallery/gallery/IMG-20161230-WA0043.jpg', alt: 'Fresh Produce Rack', category: 'Fruit & Vegetable Racks' },
+    { src: '/images/gallery/gallery/fruit-vegetable-rack-clean.png', alt: 'Fresh Produce Rack', category: 'Fruit & Vegetable Racks' },
     { src: '/images/gallery/gallery/glass-showcase-vegetable-racks.jpg', alt: 'Glass Showcase Vegetable Rack', category: 'Fruit & Vegetable Racks' },
 
     { src: '/images/gallery/gallery/bagrack.jpg', alt: 'Bag Display Rack', category: 'Fancy Store Racks' },
