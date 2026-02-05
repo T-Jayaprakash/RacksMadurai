@@ -1,0 +1,26 @@
+import { MetadataRoute } from 'next';
+import { siteConfig } from '@/lib/seo-config';
+
+export const dynamic = 'force-static';
+
+export default function robots(): MetadataRoute.Robots {
+    return {
+        rules: [
+            {
+                userAgent: '*',
+                allow: '/',
+                disallow: ['/api/', '/_next/', '/admin/'],
+            },
+            {
+                userAgent: 'Googlebot',
+                allow: '/',
+            },
+            {
+                userAgent: 'Bingbot',
+                allow: '/',
+            },
+        ],
+        sitemap: `${siteConfig.url}/sitemap.xml`,
+        host: siteConfig.url,
+    };
+}

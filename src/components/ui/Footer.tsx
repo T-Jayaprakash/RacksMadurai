@@ -135,6 +135,42 @@ export function Footer() {
                 </div>
             </div>
 
+            {/* SEO Links Strip - New keyword-focused pages */}
+            <div className="border-t border-slate-800 bg-slate-850">
+                <div className="container mx-auto px-4 py-8">
+                    <h4 className="text-center text-white font-semibold mb-4">Popular Products</h4>
+                    <div className="flex flex-wrap justify-center gap-3 text-sm">
+                        <Link href="/supermarket-racks-madurai" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Supermarket Racks Madurai
+                        </Link>
+                        <Link href="/steel-racks-manufacturer-madurai" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Steel Racks Manufacturer
+                        </Link>
+                        <Link href="/warehouse-racks-madurai" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Warehouse Racks
+                        </Link>
+                        <Link href="/display-racks-madurai" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Display Racks
+                        </Link>
+                        <Link href="/pharmacy-racks" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Pharmacy Racks
+                        </Link>
+                        <Link href="/garment-racks" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Garment Racks
+                        </Link>
+                        <Link href="/vegetable-fruit-racks" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Vegetable & Fruit Racks
+                        </Link>
+                        <Link href="/heavy-duty-industrial-racks" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Heavy Duty Racks
+                        </Link>
+                        <Link href="/custom-rack-manufacturer" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
+                            Custom Rack Manufacturing
+                        </Link>
+                    </div>
+                </div>
+            </div>
+
             {/* Services Strip */}
             <div className="border-t border-slate-800">
                 <div className="container mx-auto px-4 py-6">

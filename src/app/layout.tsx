@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 import { Header, Footer, WhatsAppFloat } from '@/components/ui';
-import { JsonLd } from '@/components/seo';
+import { LocalBusinessJsonLd } from '@/components/seo';
 import { siteConfig } from '@/lib/seo';
 
 const inter = Inter({
@@ -20,22 +20,25 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} - ${siteConfig.tagline} | Rack Manufacturers in Tamil Nadu`,
+    default: `${siteConfig.name} - ${siteConfig.tagline} | #1 Rack Manufacturer in Madurai & Tamil Nadu`,
     template: `%s | ${siteConfig.name}`,
   },
-  description: siteConfig.description,
+  description: 'Leading rack manufacturer in Madurai, Tamil Nadu. Supermarket racks, display racks, steel racks, warehouse racks, pharmacy racks & more. Factory-direct pricing. 38 districts served.',
   keywords: [
+    'rack manufacturers Madurai',
     'rack manufacturers Tamil Nadu',
-    'supermarket racks',
-    'display racks',
-    'storage racks',
+    'supermarket racks Madurai',
+    'display racks Madurai',
+    'steel racks manufacturer',
+    'warehouse racks Tamil Nadu',
+    'storage racks Madurai',
     'hyper store racks',
     'fruit vegetable racks',
     'pharmacy racks',
     'garments racks',
     'heavy duty racks',
-    'Trichy',
-    'Tamil Nadu',
+    'industrial racks',
+    'custom rack manufacturer',
     'Racks Madurai',
   ],
   authors: [{ name: 'Racks Madurai' }],
@@ -97,7 +100,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable}`}>
       <head>
-        <JsonLd />
+        <LocalBusinessJsonLd />
       </head>
       <body className="min-h-screen bg-slate-900 antialiased">
         <Header />

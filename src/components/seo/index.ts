@@ -1,2 +1,3 @@
 export { DistrictCoverageSection } from './DistrictCoverageSection';
-export { JsonLd, BreadcrumbJsonLd } from './JsonLd';
+export { JsonLd, BreadcrumbJsonLd, LocalBusinessJsonLd, FAQJsonLd, ProductJsonLd, JsonLdMultiple } from './JsonLd';
+
