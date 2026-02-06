@@ -138,35 +138,52 @@ export function Footer() {
             {/* SEO Links Strip - New keyword-focused pages */}
             <div className="border-t border-slate-800 bg-slate-850">
                 <div className="container mx-auto px-4 py-8">
-                    <h4 className="text-center text-white font-semibold mb-4">Popular Products</h4>
-                    <div className="flex flex-wrap justify-center gap-3 text-sm">
-                        <Link href="/supermarket-racks-madurai" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Supermarket Racks Madurai
-                        </Link>
-                        <Link href="/steel-racks-manufacturer-madurai" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Steel Racks Manufacturer
-                        </Link>
-                        <Link href="/warehouse-racks-madurai" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Warehouse Racks
-                        </Link>
-                        <Link href="/display-racks-madurai" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Display Racks
-                        </Link>
-                        <Link href="/pharmacy-racks" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Pharmacy Racks
-                        </Link>
-                        <Link href="/garment-racks" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Garment Racks
-                        </Link>
-                        <Link href="/vegetable-fruit-racks" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Vegetable & Fruit Racks
-                        </Link>
-                        <Link href="/heavy-duty-industrial-racks" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Heavy Duty Racks
-                        </Link>
-                        <Link href="/custom-rack-manufacturer" className="px-4 py-2 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors">
-                            Custom Rack Manufacturing
-                        </Link>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        {/* Popular Products */}
+                        <div>
+                            <h4 className="text-white font-semibold mb-4 text-center md:text-left">Popular Products</h4>
+                            <div className="flex flex-wrap justify-center md:justify-start gap-3 text-sm">
+                                <Link href="/supermarket-racks-madurai" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Supermarket Racks
+                                </Link>
+                                <Link href="/steel-racks-manufacturer-madurai" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Steel Racks
+                                </Link>
+                                <Link href="/warehouse-racks-madurai" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Warehouse Racks
+                                </Link>
+                                <Link href="/display-racks-madurai" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Display Racks
+                                </Link>
+                                <Link href="/pharmacy-racks" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Pharmacy Racks
+                                </Link>
+                                <Link href="/garment-racks" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Garment Racks
+                                </Link>
+                                <Link href="/vegetable-fruit-racks" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Vegetable Racks
+                                </Link>
+                                <Link href="/heavy-duty-industrial-racks" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Heavy Duty Racks
+                                </Link>
+                                <Link href="/custom-rack-manufacturer" className="px-3 py-1.5 bg-slate-800 rounded-full text-slate-400 hover:text-orange-400 hover:bg-slate-700 transition-colors border border-slate-700">
+                                    Custom Racks
+                                </Link>
+                            </div>
+                        </div>
+
+                        {/* Trending Searches */}
+                        <div>
+                            <h4 className="text-white font-semibold mb-4 text-center md:text-left">Trending Tags</h4>
+                            <div className="flex flex-wrap justify-center md:justify-start gap-2 text-xs text-slate-500">
+                                {['Rack Manufacturers Madurai', 'Supermarket Racks Tamil Nadu', 'Display Racks Manufacturer', 'Steel Racks Price', 'Departmental Store Racks', 'Medical Shop Racks', 'Textile Showroom Racks', 'Godown Storage Racks', 'Slotted Angle Racks', 'Gondola Racks', 'Wall Racks', 'Center Racks', 'Corner Racks', 'End Cap Racks', 'Checkout Counters', 'Fruits Vegetable Stand', 'Fancy Store Racks', 'Mobile Racks', 'Mezzanine Floors', 'Cantilever Racks', 'Pallet Racking', 'Industrial Shelving', 'Retail Fixtures', 'Shop Fittings', 'Store Setup Services', 'Rack Installation'].map((tag, i) => (
+                                    <span key={i} className="bg-slate-900 px-2 py-1 rounded border border-slate-800 hover:border-slate-700 hover:text-slate-400 cursor-default transition-colors">
+                                        {tag}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

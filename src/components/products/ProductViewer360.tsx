@@ -100,6 +100,7 @@ export function ProductViewer360({ images, alt }: ProductViewer360Props) {
                             className="object-contain"
                             draggable={false}
                             priority={currentIndex === 0}
+                            sizes="(max-width: 1024px) 100vw, 50vw"
                         />
                     </motion.div>
                 </AnimatePresence>

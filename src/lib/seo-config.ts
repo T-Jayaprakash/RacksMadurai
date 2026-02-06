@@ -5,7 +5,7 @@ export const siteConfig = {
     name: 'Racks Madurai',
     legalName: 'Racks Madurai - Next Step Display Solutions',
     tagline: 'Next Step Display Solutions',
-    description: 'Leading rack manufacturing company in Madurai, Tamil Nadu. We manufacture supermarket racks, steel racks, warehouse racks, display racks, vegetable racks, pharmacy racks, garment racks, and heavy-duty industrial racks with complete design, manufacturing, supply, and installation services.',
+    description: 'Supermarket & storage rack manufacturers in Madurai serving all Tamil Nadu. Factory-made racks for supermarkets and warehouses. Get quote now.',
     url: 'https://www.racksmadurai.com',
     phone: '+91 96778 66522',
     phoneClean: '919677866522',

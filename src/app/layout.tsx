@@ -20,10 +20,10 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} - ${siteConfig.tagline} | #1 Rack Manufacturer in Madurai & Tamil Nadu`,
+    default: 'Supermarket & Storage Rack Manufacturers in Madurai | Racks Madurai',
     template: `%s | ${siteConfig.name}`,
   },
-  description: 'Leading rack manufacturer in Madurai, Tamil Nadu. Supermarket racks, display racks, steel racks, warehouse racks, pharmacy racks & more. Factory-direct pricing. 38 districts served.',
+  description: 'Supermarket & storage rack manufacturers in Madurai serving all Tamil Nadu. Factory-made racks for supermarkets and warehouses. Get quote now.',
   keywords: [
     'rack manufacturers Madurai',
     'rack manufacturers Tamil Nadu',
@@ -54,21 +54,21 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} - ${siteConfig.tagline}`,
-    description: siteConfig.description,
+    title: 'Supermarket & Storage Rack Manufacturers in Madurai | Racks Madurai',
+    description: 'Supermarket & storage rack manufacturers in Madurai serving all Tamil Nadu. Factory-made racks for supermarkets and warehouses. Get quote now.',
     images: [
       {
         url: '/images/hero.png',
         width: 1200,
         height: 630,
-        alt: 'Racks Madurai - Premium Display Rack Solutions',
+        alt: 'Supermarket rack manufacturers in Madurai',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteConfig.name} - ${siteConfig.tagline}`,
-    description: siteConfig.description,
+    title: 'Supermarket & Storage Rack Manufacturers in Madurai | Racks Madurai',
+    description: 'Supermarket & storage rack manufacturers in Madurai serving all Tamil Nadu. Factory-made racks for supermarkets and warehouses. Get quote now.',
     images: ['/images/hero.png'],
   },
   robots: {

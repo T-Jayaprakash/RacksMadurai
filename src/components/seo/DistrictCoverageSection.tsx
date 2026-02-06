@@ -27,15 +27,14 @@ export function DistrictCoverageSection() {
                     className="text-center mb-16"
                 >
                     <span className="inline-block text-orange-400 font-semibold text-sm uppercase tracking-wider mb-4">
-                        Service Coverage
+                        Service Areas
                     </span>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
                         Serving All
-                        <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent"> 38 Districts</span>
-                        <br />of Tamil Nadu
+                        <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent"> Tamil Nadu</span>
                     </h2>
                     <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-                        From Chennai to Kanniyakumari, we deliver premium rack solutions with installation support across every corner of Tamil Nadu.
+                        We actively supply and install premium racks in Madurai, Dindigul, Virudhunagar, Theni, Sivagangai, and all over Tamil Nadu.
                     </p>
                 </motion.div>
 
