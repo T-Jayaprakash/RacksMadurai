@@ -21,7 +21,7 @@ interface GoogleReviewsEmbedProps {
 }
 
 export function GoogleReviewsEmbed({
-    embedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.123456789!2d77.123456789!3d11.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRacks%20Madurai!5e0!3m2!1sen!2sin!4v1234567890",
+    embedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.0!2d78.1048!3d9.9195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s16%2C%201st%20St%2C%20Ponmeni%2C%20Madurai!5e0!3m2!1sen!2sin!4v1234567890",
     title = "What Our Customers Say",
     subtitle = "Read genuine reviews from our satisfied customers on Google",
     className = "",
@@ -131,7 +131,7 @@ export function GoogleReviewsEmbed({
                     className="text-center mt-8"
                 >
                     <a
-                        href="https://www.google.com/maps/search/Racks+Madurai"
+                        href="https://maps.app.goo.gl/ZHdxsPCYjWpqMnc49"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-orange-600 hover:text-orange-700 font-semibold transition-colors"

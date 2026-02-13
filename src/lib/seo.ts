@@ -9,13 +9,13 @@ export const siteConfig = {
     phoneClean: '919677866522',
     email: 'krishnan.rack@gmail.com',
     address: {
-        street: 'Digital Showroom',
-        area: 'Madurai',
+        street: '16, 1st St, Ponmeni',
+        area: 'Ponmeni',
         city: 'Madurai',
         state: 'Tamil Nadu',
-        pincode: '625 001',
+        pincode: '625016',
         country: 'India',
-        full: 'Digital Showroom, Madurai, Tamil Nadu'
+        full: '16, 1st St, Ponmeni, Madurai, Tamil Nadu 625016'
     },
     services: ['Consulting', 'Designing', 'Manufacturing', 'Supply', 'Installation with Service'],
     social: {
@@ -100,8 +100,8 @@ export const structuredData = {
         },
         geo: {
             '@type': 'GeoCoordinates',
-            latitude: '9.9252',
-            longitude: '78.1198',
+            latitude: '9.9195',
+            longitude: '78.1048',
         },
         areaServed: {
             '@type': 'State',

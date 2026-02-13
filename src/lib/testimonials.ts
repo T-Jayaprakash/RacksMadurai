@@ -12,18 +12,18 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
     {
         id: '1',
-        name: 'Rajesh Kumar',
-        role: 'Owner, Kumar Supermarket',
-        location: 'Chennai',
-        content: 'Racks Madurai transformed our store completely. The quality of racks is excellent and the installation was done professionally. Our customers love the new look!',
+        name: 'A Janarthanan',
+        role: 'Supermarket Owner',
+        location: 'Madurai',
+        content: 'I bought racks for my supermarket from here and honestly the quality is very good. The racks are strong and finishing also looks nice. They delivered little fast than I expected and staff also explained everything clearly. Price also reasonable compare to others. Fully satisfied, I will recommend for anyone who need supermarket racks',
         rating: 5,
     },
     {
         id: '2',
-        name: 'Priya Venkatesh',
-        role: 'Manager, Fresh Mart',
-        location: 'Coimbatore',
-        content: 'We ordered fruit and vegetable racks for our new branch. The team delivered on time and the racks look premium. Highly recommend!',
+        name: 'Sanjai S',
+        role: 'Supermarket Owner',
+        location: 'Madurai',
+        content: 'Purchased display racks for our supermarket from Racks Madurai. Strong material, neat finishing, and good load capacity. Installation was done properly and on time. Rates are fair compared to others. Overall, reliable service.',
         rating: 5,
     },
     {

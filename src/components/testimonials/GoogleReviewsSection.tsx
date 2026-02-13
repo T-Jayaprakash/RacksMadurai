@@ -7,11 +7,11 @@ import Image from 'next/image';
 const googleReviews = [
     {
         id: 'gr-1',
-        name: 'Arun Ram',
+        name: 'A Janarthanan',
         rating: 5,
-        date: '3 months ago',
-        content: 'We purchased supermarket display racks for Sundaram Supermarket, and the overall experience has been excellent. The racks are durable, well-built, and designed to maximize space utilization. The quality of the materials and the finishing give a professional look to our store layout. Product delivery was prompt, and installation was handled efficiently. These racks have significantly improved the display and accessibility of our products. We are very satisfied with our purchase and would recommend these racks to other retailers.',
-        reviewLink: 'https://maps.app.goo.gl/7bsrgFjsMPqEanRF7',
+        date: 'Recently',
+        content: 'I bought racks for my supermarket from here and honestly the quality is very good. The racks are strong and finishing also looks nice. They delivered little fast than I expected and staff also explained everything clearly. Price also reasonable compare to others. Fully satisfied, I will recommend for anyone who need supermarket racks',
+        reviewLink: 'https://maps.app.goo.gl/aaT81xY3kECXD7S76',
         images: [
             '/images/reviews/review-1/unnamed-2.jpg.jpeg',
             '/images/reviews/review-1/unnamed-3.jpg.jpeg',
@@ -21,21 +21,20 @@ const googleReviews = [
     },
     {
         id: 'gr-2',
-        name: 'Mohamed Bilal',
+        name: 'Sanjai S',
         rating: 5,
-        date: '3 weeks ago',
-        content: 'Best quality, best products, friendly staffs support. I have done my supermarket in inamkulathur branch by support of Mr.hariharan (Racks Madurai).',
-        reviewLink: 'https://maps.app.goo.gl/JUgBimWf3tyRyMGY8',
+        date: '8 hours ago',
+        content: 'Purchased display racks for our supermarket from Racks Madurai. Strong material, neat finishing, and good load capacity. Installation was done properly and on time. Rates are fair compared to others. Overall, reliable service.',
+        reviewLink: 'https://maps.app.goo.gl/tSZvySaNRc84nHhU9',
         images: [
             '/images/reviews/review-2/unnamed-2.jpg.jpeg',
             '/images/reviews/review-2/unnamed-3.jpg.jpeg',
             '/images/reviews/review-2/unnamed-4.jpg.jpeg',
-            '/images/reviews/review-2/unnamed-5.jpg.jpeg',
         ],
     },
 ];
 
-const GOOGLE_REVIEWS_LINK = 'https://maps.app.goo.gl/YbwsiyWZchHrwX6p8';
+const GOOGLE_REVIEWS_LINK = 'https://maps.app.goo.gl/ZHdxsPCYjWpqMnc49';
 
 function StarRating({ rating }: { rating: number }) {
     return (
@@ -93,20 +92,22 @@ function GoogleReviewCard({ review, index }: GoogleReviewCardProps) {
         >
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-orange-200 h-full flex flex-col">
                 {/* Image Gallery */}
-                <div className="grid grid-cols-2 gap-1 mb-4">
-                    {review.images.map((image, imgIndex) => (
-                        <div key={imgIndex} className="relative aspect-square overflow-hidden">
-                            <Image
-                                src={image}
-                                alt={`Review photo ${imgIndex + 1}`}
-                                fill
-                                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                                sizes="(max-width: 768px) 50vw, 25vw"
-                                loading="lazy"
-                            />
-                        </div>
-                    ))}
-                </div>
+                {review.images.length > 0 && (
+                    <div className="grid grid-cols-2 gap-1 mb-4">
+                        {review.images.map((image, imgIndex) => (
+                            <div key={imgIndex} className="relative aspect-square overflow-hidden">
+                                <Image
+                                    src={image}
+                                    alt={`Review photo ${imgIndex + 1}`}
+                                    fill
+                                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                                    sizes="(max-width: 768px) 50vw, 25vw"
+                                    loading="lazy"
+                                />
+                            </div>
+                        ))}
+                    </div>
+                )}
 
                 {/* Review Info */}
                 <div className="p-6 flex-grow flex flex-col">
