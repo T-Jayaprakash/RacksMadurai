@@ -5,21 +5,21 @@ export const siteConfig = {
     tagline: 'Next Step Display Solutions',
     description: 'Leading rack manufacturing and display solution company in Tamil Nadu. We offer supermarket racks, hyper store racks, fruit & vegetable racks, electronic racks, pharmacy racks, garments racks, and heavy-duty racks with complete design, manufacturing, supply, and installation services.',
     url: 'https://www.racksmadurai.com',
-    phone: '+91 96778 66522',
-    phoneClean: '919677866522',
-    email: 'krishnan.rack@gmail.com',
+    phone: '+91 99946 12609',
+    phoneClean: '919994612609',
+    email: 'Sales@akracks.com',
     address: {
-        street: '16, 1st St, Ponmeni',
-        area: 'Ponmeni',
+        street: 'No.3/176-R1 Neethi Nager, Otthakadai',
+        area: 'Otthakadai',
         city: 'Madurai',
         state: 'Tamil Nadu',
-        pincode: '625016',
+        pincode: '625107',
         country: 'India',
-        full: '16, 1st St, Ponmeni, Madurai, Tamil Nadu 625016'
+        full: 'No.3/176-R1 Neethi Nager, Otthakadai, (High Court Back side) Madurai-625107'
     },
     services: ['Consulting', 'Designing', 'Manufacturing', 'Supply', 'Installation with Service'],
     social: {
-        whatsapp: 'https://wa.me/919677866522',
+        whatsapp: 'https://wa.me/919994612609',
     },
     stats: {
         yearsExperience: 10,
@@ -100,8 +100,8 @@ export const structuredData = {
         },
         geo: {
             '@type': 'GeoCoordinates',
-            latitude: '9.9195',
-            longitude: '78.1048',
+            latitude: '9.9547306',
+            longitude: '78.188958',
         },
         areaServed: {
             '@type': 'State',
