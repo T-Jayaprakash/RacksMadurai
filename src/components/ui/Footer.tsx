@@ -17,7 +17,7 @@ export function Footer() {
                     <div>
                         <div className="mb-6">
                             <span className="text-3xl font-bold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent" style={{ fontFamily: 'var(--font-space)' }}>
-                                Racks Madurai
+                                AK Racks Madurai
                             </span>
                         </div>
                         <p className="text-slate-400 mb-6 leading-relaxed">
@@ -209,7 +209,7 @@ export function Footer() {
             <div className="border-t border-slate-800 bg-slate-950">
                 <div className="container mx-auto px-4 py-6">
                     <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-500">
-                        <p>© {new Date().getFullYear()} Racks Madurai. All rights reserved.</p>
+                        <p>© {new Date().getFullYear()} AK Racks Madurai. All rights reserved.</p>
                         <div className="flex items-center gap-2">
                             <span>Made in Tamil Nadu 🇮🇳</span>
                         </div>

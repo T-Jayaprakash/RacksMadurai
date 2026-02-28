@@ -23,7 +23,7 @@ export const testimonials: Testimonial[] = [
         name: 'Sanjai S',
         role: 'Supermarket Owner',
         location: 'Madurai',
-        content: 'Purchased display racks for our supermarket from Racks Madurai. Strong material, neat finishing, and good load capacity. Installation was done properly and on time. Rates are fair compared to others. Overall, reliable service.',
+        content: 'Purchased display racks for our supermarket from AK Racks Madurai. Strong material, neat finishing, and good load capacity. Installation was done properly and on time. Rates are fair compared to others. Overall, reliable service.',
         rating: 5,
     },
     {
@@ -31,7 +31,7 @@ export const testimonials: Testimonial[] = [
         name: 'Mohammed Ismail',
         role: 'Director, City Pharmacy',
         location: 'Madurai',
-        content: 'The pharmacy racks are sturdy and perfectly designed for medicine display. Racks Madurai provided excellent after-sales service too.',
+        content: 'The pharmacy racks are sturdy and perfectly designed for medicine display. AK Racks Madurai provided excellent after-sales service too.',
         rating: 5,
     },
     {
@@ -47,7 +47,7 @@ export const testimonials: Testimonial[] = [
         name: 'Senthil Murugan',
         role: 'Warehouse Manager, MM Logistics',
         location: 'Trichy',
-        content: 'Heavy duty racks from Racks Madurai are the best investment we made. They handle our industrial loads perfectly. Professional service!',
+        content: 'Heavy duty racks from AK Racks Madurai are the best investment we made. They handle our industrial loads perfectly. Professional service!',
         rating: 5,
     },
     {
@@ -55,7 +55,7 @@ export const testimonials: Testimonial[] = [
         name: 'Anitha Raj',
         role: 'Owner, AR Electronics',
         location: 'Tiruppur',
-        content: 'The electronic display racks are exactly what we needed. Clear visibility and sturdy construction. Thank you Racks Madurai!',
+        content: 'The electronic display racks are exactly what we needed. Clear visibility and sturdy construction. Thank you AK Racks Madurai!',
         rating: 5,
     },
 ];

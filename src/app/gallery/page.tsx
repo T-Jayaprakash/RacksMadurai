@@ -3,7 +3,7 @@ import { GalleryGrid, galleryImages } from '@/components/gallery';
 
 export const metadata: Metadata = {
     title: 'Gallery - Our Installations & Projects',
-    description: 'Browse our gallery of completed rack installations across Tamil Nadu. See how Racks Madurai transforms supermarkets, pharmacies, warehouses, and retail stores with premium display solutions.',
+    description: 'Browse our gallery of completed rack installations across Tamil Nadu. See how AK Racks Madurai transforms supermarkets, pharmacies, warehouses, and retail stores with premium display solutions.',
 };
 
 export default function GalleryPage() {

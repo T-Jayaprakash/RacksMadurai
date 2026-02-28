@@ -87,7 +87,7 @@ export default async function DistrictPage({ params }: PageProps) {
                             <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent"> {districtData.name}</span>
                         </h1>
                         <p className="text-xl text-slate-300 leading-relaxed">
-                            {districtData.description}. Racks Madurai provides premium display rack solutions with complete design, manufacturing, supply, and installation services in {districtData.name}.
+                            {districtData.description}. AK Racks Madurai provides premium display rack solutions with complete design, manufacturing, supply, and installation services in {districtData.name}.
                         </p>
                     </div>
                 </div>

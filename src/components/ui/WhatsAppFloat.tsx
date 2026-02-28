@@ -32,7 +32,7 @@ export function WhatsAppFloat() {
                                 className="absolute bottom-full right-0 mb-4 w-72 bg-white rounded-2xl shadow-2xl overflow-hidden"
                             >
                                 <div className="bg-gradient-to-r from-green-500 to-green-600 p-4 text-white">
-                                    <h3 className="font-bold text-lg">Chat with Racks Madurai</h3>
+                                    <h3 className="font-bold text-lg">Chat with AK Racks Madurai</h3>
                                     <p className="text-sm text-green-100 mt-1">We typically reply within minutes</p>
                                 </div>
                                 <div className="p-4">

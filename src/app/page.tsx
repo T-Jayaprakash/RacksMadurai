@@ -81,9 +81,9 @@ export default function HomePage() {
       <section className="bg-slate-900 pt-12 pb-4 border-b border-slate-800">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
-            <h2 className="sr-only">About Racks Madurai</h2>
+            <h2 className="sr-only">About AK Racks Madurai</h2>
             <p className="text-slate-300 text-lg md:text-xl leading-relaxed">
-              <strong className="text-white font-semibold">Racks Madurai</strong> is the leading <strong className="text-orange-400">Supermarket & Storage Rack Manufacturer in Madurai</strong>, Tamil Nadu.
+              <strong className="text-white font-semibold">AK Racks Madurai</strong> is the leading <strong className="text-orange-400">Supermarket & Storage Rack Manufacturer in Madurai</strong>, Tamil Nadu.
               We specialize in designing and manufacturing high-quality supermarket racks, warehouse racks, and steel storage racks for retail and industrial needs.
               From our factory in Madurai, we supply durable rack systems to Dindigul, Virudhunagar, Theni, Sivagangai, and all over Tamil Nadu.
             </p>
@@ -108,7 +108,7 @@ export default function HomePage() {
                 <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent"> 360°</span>
               </h2>
               <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-                Explore our premium supermarket rack from every angle. Drag or swipe to rotate and see the quality craftsmanship that goes into every Racks Madurai product.
+                Explore our premium supermarket rack from every angle. Drag or swipe to rotate and see the quality craftsmanship that goes into every AK Racks Madurai product.
               </p>
               <ul className="space-y-4 mb-8">
                 {[

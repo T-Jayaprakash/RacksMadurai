@@ -104,7 +104,7 @@ export function GoogleReviewsEmbed({
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        title="Google Maps - Racks Madurai Location and Reviews"
+                        title="Google Maps - AK Racks Madurai Location and Reviews"
                         className="hidden md:block"
                     />
 
@@ -117,7 +117,7 @@ export function GoogleReviewsEmbed({
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        title="Google Maps - Racks Madurai Location and Reviews"
+                        title="Google Maps - AK Racks Madurai Location and Reviews"
                         className="block md:hidden"
                     />
                 </motion.div>

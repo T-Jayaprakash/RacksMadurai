@@ -189,7 +189,7 @@ export default function SupermarketRacksMaduraiPage() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                            Why Choose Racks Madurai for <span className="text-orange-400">Supermarket Racks?</span>
+                            Why Choose AK Racks Madurai for <span className="text-orange-400">Supermarket Racks?</span>
                         </h2>
                         <p className="text-lg text-slate-300">
                             As the leading supermarket racks manufacturer in Madurai, we combine quality materials, innovative design, and competitive pricing to deliver the best display solutions for your retail store.
@@ -311,7 +311,7 @@ export default function SupermarketRacksMaduraiPage() {
                                 Premium Quality <span className="text-orange-400">Specifications</span>
                             </h2>
                             <p className="text-lg text-slate-300 mb-8">
-                                Every supermarket rack from Racks Madurai is built to last with premium materials and precision engineering.
+                                Every supermarket rack from AK Racks Madurai is built to last with premium materials and precision engineering.
                             </p>
                             <div className="space-y-4">
                                 {[
@@ -336,7 +336,7 @@ export default function SupermarketRacksMaduraiPage() {
                         <div className="relative">
                             <Image
                                 src="/images/corner-rack.png"
-                                alt="Supermarket corner rack specifications - Racks Madurai"
+                                alt="Supermarket corner rack specifications - AK Racks Madurai"
                                 width={500}
                                 height={400}
                                 className="rounded-2xl shadow-2xl"

@@ -4,7 +4,7 @@ import { districts } from '@/lib/districts';
 
 export const metadata: Metadata = {
     title: 'Service Areas - All 38 Districts of Tamil Nadu',
-    description: 'Racks Madurai serves all 38 districts of Tamil Nadu with premium display rack solutions. Find rack manufacturers near you for supermarkets, pharmacies, garments stores, and warehouses.',
+    description: 'AK Racks Madurai serves all 38 districts of Tamil Nadu with premium display rack solutions. Find rack manufacturers near you for supermarkets, pharmacies, garments stores, and warehouses.',
 };
 
 export default function LocationsPage() {

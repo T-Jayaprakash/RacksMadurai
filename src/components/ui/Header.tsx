@@ -42,7 +42,7 @@ export function Header() {
                         {/* Logo */}
                         <Link href="/" className="flex items-center gap-2 flex-shrink-0">
                             <span className="text-2xl font-bold text-white" style={{ fontFamily: 'var(--font-space)' }}>
-                                Racks Madurai
+                                AK Racks Madurai
                             </span>
                         </Link>
 

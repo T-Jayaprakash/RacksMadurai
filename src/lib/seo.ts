@@ -1,7 +1,7 @@
-// SEO Configuration for Racks Madurai
+// SEO Configuration for AK Racks Madurai
 
 export const siteConfig = {
-    name: 'Racks Madurai',
+    name: 'AK Racks Madurai',
     tagline: 'Next Step Display Solutions',
     description: 'Leading rack manufacturing and display solution company in Tamil Nadu. We offer supermarket racks, hyper store racks, fruit & vegetable racks, electronic racks, pharmacy racks, garments racks, and heavy-duty racks with complete design, manufacturing, supply, and installation services.',
     url: 'https://www.racksmadurai.com',
@@ -30,8 +30,8 @@ export const siteConfig = {
 };
 
 export const generateDistrictMeta = (districtName: string) => ({
-    title: `Display Rack Manufacturers in ${districtName} | Supermarket & Store Racks | Racks Madurai`,
-    description: `Leading rack manufacturers in ${districtName}, Tamil Nadu. We supply supermarket racks, display racks, pharmacy racks, fruit & vegetable racks, garments racks, and heavy-duty racks with complete installation support. Contact Racks Madurai today!`,
+    title: `Display Rack Manufacturers in ${districtName} | Supermarket & Store Racks | AK Racks Madurai`,
+    description: `Leading rack manufacturers in ${districtName}, Tamil Nadu. We supply supermarket racks, display racks, pharmacy racks, fruit & vegetable racks, garments racks, and heavy-duty racks with complete installation support. Contact AK Racks Madurai today!`,
     keywords: [
         `rack manufacturers in ${districtName}`,
         `supermarket racks ${districtName}`,
@@ -42,13 +42,13 @@ export const generateDistrictMeta = (districtName: string) => ({
         `garments racks ${districtName}`,
         `heavy duty racks ${districtName}`,
         `retail racks Tamil Nadu`,
-        'Racks Madurai',
+        'AK Racks Madurai',
     ],
 });
 
 export const generateCategoryMeta = (categoryName: string, categoryDescription: string) => ({
-    title: `${categoryName} Manufacturers in Tamil Nadu | Racks Madurai`,
-    description: `${categoryDescription} Racks Madurai offers premium quality ${categoryName.toLowerCase()} with complete design, manufacturing, supply, and installation services across Tamil Nadu. Get a quote today!`,
+    title: `${categoryName} Manufacturers in Tamil Nadu | AK Racks Madurai`,
+    description: `${categoryDescription} AK Racks Madurai offers premium quality ${categoryName.toLowerCase()} with complete design, manufacturing, supply, and installation services across Tamil Nadu. Get a quote today!`,
     keywords: [
         categoryName.toLowerCase(),
         `${categoryName.toLowerCase()} manufacturers`,
@@ -56,7 +56,7 @@ export const generateCategoryMeta = (categoryName: string, categoryDescription: 
         `${categoryName.toLowerCase()} Madurai`,
         'display racks',
         'retail solutions',
-        'Racks Madurai',
+        'AK Racks Madurai',
     ],
 });
 

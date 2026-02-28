@@ -24,7 +24,7 @@ const googleReviews = [
         name: 'Sanjai S',
         rating: 5,
         date: '8 hours ago',
-        content: 'Purchased display racks for our supermarket from Racks Madurai. Strong material, neat finishing, and good load capacity. Installation was done properly and on time. Rates are fair compared to others. Overall, reliable service.',
+        content: 'Purchased display racks for our supermarket from AK Racks Madurai. Strong material, neat finishing, and good load capacity. Installation was done properly and on time. Rates are fair compared to others. Overall, reliable service.',
         reviewLink: 'https://maps.app.goo.gl/tSZvySaNRc84nHhU9',
         images: [
             '/images/reviews/review-2/unnamed-2.jpg.jpeg',

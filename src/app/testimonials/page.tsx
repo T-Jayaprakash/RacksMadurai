@@ -5,7 +5,7 @@ import { siteConfig } from '@/lib/seo';
 
 export const metadata: Metadata = {
     title: 'Testimonials - What Our Clients Say',
-    description: 'Read testimonials from our satisfied clients across Tamil Nadu. Discover why businesses trust Racks Madurai for their display and storage rack needs.',
+    description: 'Read testimonials from our satisfied clients across Tamil Nadu. Discover why businesses trust AK Racks Madurai for their display and storage rack needs.',
 };
 
 export default function TestimonialsPage() {
@@ -23,7 +23,7 @@ export default function TestimonialsPage() {
                             <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent"> Clients Say</span>
                         </h1>
                         <p className="text-xl text-slate-300 leading-relaxed">
-                            Don&apos;t just take our word for it. Hear from businesses across Tamil Nadu who trust Racks Madurai for their display solutions.
+                            Don&apos;t just take our word for it. Hear from businesses across Tamil Nadu who trust AK Racks Madurai for their display solutions.
                         </p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default function TestimonialsPage() {
                         Join Our Happy Customers
                     </h2>
                     <p className="text-slate-400 mb-8 max-w-xl mx-auto">
-                        Experience the Racks Madurai difference. Contact us today for a free consultation and quote.
+                        Experience the AK Racks Madurai difference. Contact us today for a free consultation and quote.
                     </p>
                     <a
                         href={siteConfig.social.whatsapp}

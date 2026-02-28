@@ -81,7 +81,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
                                         </h3>
                                         <p className="text-slate-300 leading-relaxed">
                                             {product.description}. Perfect for {product.category.toLowerCase()} needs.
-                                            Manufactured with precision by Racks Madurai with the highest quality standards.
+                                            Manufactured with precision by AK Racks Madurai with the highest quality standards.
                                         </p>
                                     </div>
 

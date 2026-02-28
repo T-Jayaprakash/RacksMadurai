@@ -20,7 +20,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Supermarket & Storage Rack Manufacturers in Madurai | Racks Madurai',
+    default: 'Supermarket & Storage Rack Manufacturers in Madurai | AK Racks Madurai',
     template: `%s | ${siteConfig.name}`,
   },
   description: 'Supermarket & storage rack manufacturers in Madurai serving all Tamil Nadu. Factory-made racks for supermarkets and warehouses. Get quote now.',
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
     'heavy duty racks',
     'industrial racks',
     'custom rack manufacturer',
-    'Racks Madurai',
+    'AK Racks Madurai',
   ],
-  authors: [{ name: 'Racks Madurai' }],
-  creator: 'Racks Madurai',
-  publisher: 'Racks Madurai',
+  authors: [{ name: 'AK Racks Madurai' }],
+  creator: 'AK Racks Madurai',
+  publisher: 'AK Racks Madurai',
   formatDetection: {
     email: false,
     address: false,
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: 'Supermarket & Storage Rack Manufacturers in Madurai | Racks Madurai',
+    title: 'Supermarket & Storage Rack Manufacturers in Madurai | AK Racks Madurai',
     description: 'Supermarket & storage rack manufacturers in Madurai serving all Tamil Nadu. Factory-made racks for supermarkets and warehouses. Get quote now.',
     images: [
       {
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Supermarket & Storage Rack Manufacturers in Madurai | Racks Madurai',
+    title: 'Supermarket & Storage Rack Manufacturers in Madurai | AK Racks Madurai',
     description: 'Supermarket & storage rack manufacturers in Madurai serving all Tamil Nadu. Factory-made racks for supermarkets and warehouses. Get quote now.',
     images: ['/images/hero.png'],
   },

@@ -1,4 +1,4 @@
-// Comprehensive JSON-LD Schema Library for Racks Madurai
+// Comprehensive JSON-LD Schema Library for AK Racks Madurai
 // Implements LocalBusiness, Product, FAQ, Breadcrumb, and Organization schemas
 
 import { siteConfig, FAQItem } from './seo-config';

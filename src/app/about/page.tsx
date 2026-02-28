@@ -5,7 +5,7 @@ import { siteConfig } from '@/lib/seo';
 
 export const metadata: Metadata = {
     title: 'About Us - Leading Rack Manufacturers in Tamil Nadu',
-    description: 'Learn about Racks Madurai, a premier rack manufacturing company based in Trichy, Tamil Nadu. We specialize in designing, manufacturing, and installing display racks for supermarkets, stores, and warehouses across all 38 districts.',
+    description: 'Learn about AK Racks Madurai, a premier rack manufacturing company based in Trichy, Tamil Nadu. We specialize in designing, manufacturing, and installing display racks for supermarkets, stores, and warehouses across all 38 districts.',
 };
 
 export default function AboutPage() {
@@ -16,7 +16,7 @@ export default function AboutPage() {
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl">
                         <span className="inline-block text-orange-400 font-semibold text-sm uppercase tracking-wider mb-4">
-                            About Racks Madurai
+                            About AK Racks Madurai
                         </span>
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
                             Your Trusted Partner for
@@ -38,7 +38,7 @@ export default function AboutPage() {
                             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                                 <Image
                                     src="/images/factory.png"
-                                    alt="Racks Madurai Manufacturing Unit"
+                                    alt="AK Racks Madurai Manufacturing Unit"
                                     width={600}
                                     height={400}
                                     className="w-full h-auto"
@@ -57,7 +57,7 @@ export default function AboutPage() {
                                 Who We Are
                             </h2>
                             <p className="text-slate-300 mb-6 leading-relaxed">
-                                Racks Madurai is a Tamil Nadu–based rack manufacturing and display solution company offering end-to-end services including design, manufacturing, supply, and installation.
+                                AK Racks Madurai is a Tamil Nadu–based rack manufacturing and display solution company offering end-to-end services including design, manufacturing, supply, and installation.
                             </p>
                             <p className="text-slate-300 mb-8 leading-relaxed">
                                 Based in Trichy, we provide a wide range of racks for supermarkets, hyper stores, fruit and vegetable shops, electronic stores, pharmacies, garment stores, fancy stores, and warehouses. Our solutions are focused on durability, space optimization, and modern retail display.
@@ -99,7 +99,7 @@ export default function AboutPage() {
                             Why Choose Us
                         </span>
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                            The Racks Madurai Advantage
+                            The AK Racks Madurai Advantage
                         </h2>
                     </div>
 

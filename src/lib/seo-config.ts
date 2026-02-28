@@ -1,9 +1,9 @@
-// Production-Grade SEO Configuration for Racks Madurai
+// Production-Grade SEO Configuration for AK Racks Madurai
 // Optimized for Google-first ranking and Local SEO
 
 export const siteConfig = {
-    name: 'Racks Madurai',
-    legalName: 'Racks Madurai - Next Step Display Solutions',
+    name: 'AK Racks Madurai',
+    legalName: 'AK Racks Madurai - Next Step Display Solutions',
     tagline: 'Next Step Display Solutions',
     description: 'Supermarket & storage rack manufacturers in Madurai serving all Tamil Nadu. Factory-made racks for supermarkets and warehouses. Get quote now.',
     url: 'https://www.racksmadurai.com',
@@ -71,7 +71,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'supermarket-racks-madurai',
         title: 'Supermarket Racks',
-        metaTitle: 'Supermarket Racks Manufacturer in Madurai | Display Racks | Racksmadurai',
+        metaTitle: 'Supermarket Racks Manufacturer in Madurai | Display Racks | AK Racks Madurai',
         metaDescription: 'Leading supermarket rack manufacturers in Madurai. Premium display racks, gondola shelving, wall racks & corner racks for retail stores. Factory-direct pricing. Call +91 99946 12609.',
         h1: 'Supermarket Racks Manufacturer in Madurai',
         primaryKeyword: 'supermarket racks madurai',
@@ -92,7 +92,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'steel-racks-manufacturer-madurai',
         title: 'Steel Racks Manufacturer',
-        metaTitle: 'Steel Racks Manufacturer in Madurai | Industrial Storage Racks | Racksmadurai',
+        metaTitle: 'Steel Racks Manufacturer in Madurai | Industrial Storage Racks | AK Racks Madurai',
         metaDescription: 'Premium steel rack manufacturers in Madurai. Heavy-duty industrial steel racks, storage solutions & warehouse shelving. ISO certified quality. Get free quote today!',
         h1: 'Steel Racks Manufacturer in Madurai',
         primaryKeyword: 'steel racks manufacturer madurai',
@@ -113,7 +113,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'warehouse-racks-madurai',
         title: 'Warehouse Racks',
-        metaTitle: 'Warehouse Racks Manufacturer in Madurai | Industrial Storage Solutions | Racksmadurai',
+        metaTitle: 'Warehouse Racks Manufacturer in Madurai | Industrial Storage Solutions | AK Racks Madurai',
         metaDescription: 'Heavy-duty warehouse rack manufacturers in Madurai. Pallet racks, industrial shelving, warehouse storage solutions. High load capacity. Pan Tamil Nadu delivery.',
         h1: 'Warehouse Racks Manufacturer in Madurai',
         primaryKeyword: 'warehouse racks madurai',
@@ -134,7 +134,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'display-racks-madurai',
         title: 'Display Racks',
-        metaTitle: 'Display Racks Manufacturer in Madurai | Retail Display Solutions | Racksmadurai',
+        metaTitle: 'Display Racks Manufacturer in Madurai | Retail Display Solutions | AK Racks Madurai',
         metaDescription: 'Premium display rack manufacturers in Madurai. Retail display racks, showroom displays, product showcases. Custom designs available. 12+ color options.',
         h1: 'Display Racks Manufacturer in Madurai',
         primaryKeyword: 'display racks madurai',
@@ -155,7 +155,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'vegetable-fruit-racks',
         title: 'Vegetable & Fruit Racks',
-        metaTitle: 'Vegetable & Fruit Racks Manufacturer | Fresh Produce Display | Racksmadurai',
+        metaTitle: 'Vegetable & Fruit Racks Manufacturer | Fresh Produce Display | AK Racks Madurai',
         metaDescription: 'Specialized vegetable and fruit rack manufacturers in Madurai. Fresh produce display racks with SS trays, ventilated design. Perfect for supermarkets & grocery stores.',
         h1: 'Vegetable & Fruit Racks Manufacturer in Madurai',
         primaryKeyword: 'vegetable fruit racks',
@@ -176,7 +176,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'pharmacy-racks',
         title: 'Pharmacy Racks',
-        metaTitle: 'Pharmacy Racks Manufacturer in Madurai | Medical Store Display | Racksmadurai',
+        metaTitle: 'Pharmacy Racks Manufacturer in Madurai | Medical Store Display | AK Racks Madurai',
         metaDescription: 'Professional pharmacy rack manufacturers in Madurai. Medical store display racks with label strips, clean design. Anti-bacterial coating. Perfect for pharmacies & clinics.',
         h1: 'Pharmacy Racks Manufacturer in Madurai',
         primaryKeyword: 'pharmacy racks madurai',
@@ -197,7 +197,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'garment-racks',
         title: 'Garment Racks',
-        metaTitle: 'Garment Racks Manufacturer in Madurai | Clothing Display Racks | Racksmadurai',
+        metaTitle: 'Garment Racks Manufacturer in Madurai | Clothing Display Racks | AK Racks Madurai',
         metaDescription: 'Stylish garment rack manufacturers in Madurai. Clothing store display racks, hanger systems, boutique fixtures. Chrome & wooden finish options available.',
         h1: 'Garment Racks Manufacturer in Madurai',
         primaryKeyword: 'garment racks madurai',
@@ -218,7 +218,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'heavy-duty-industrial-racks',
         title: 'Heavy Duty Industrial Racks',
-        metaTitle: 'Heavy Duty Industrial Racks Manufacturer | Warehouse Storage | Racksmadurai',
+        metaTitle: 'Heavy Duty Industrial Racks Manufacturer | Warehouse Storage | AK Racks Madurai',
         metaDescription: 'Industrial-grade heavy duty rack manufacturers in Madurai. High load capacity racks for warehouses, factories & godowns. Pallet racking compatible. 500-1000 kg per shelf.',
         h1: 'Heavy Duty Industrial Racks Manufacturer in Madurai',
         primaryKeyword: 'heavy duty industrial racks',
@@ -239,7 +239,7 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'custom-rack-manufacturer',
         title: 'Custom Rack Manufacturer',
-        metaTitle: 'Custom Rack Manufacturer in Madurai | Bespoke Storage Solutions | Racksmadurai',
+        metaTitle: 'Custom Rack Manufacturer in Madurai | Bespoke Storage Solutions | AK Racks Madurai',
         metaDescription: 'Custom rack manufacturing in Madurai. Bespoke storage solutions tailored to your needs. Any size, any design, any color. Free consultation & design service.',
         h1: 'Custom Rack Manufacturer in Madurai',
         primaryKeyword: 'custom rack manufacturer madurai',
@@ -260,9 +260,9 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'about-racks-madurai',
         title: 'About Us',
-        metaTitle: 'About Racks Madurai | Leading Rack Manufacturers in Tamil Nadu',
-        metaDescription: 'Learn about Racks Madurai - 10+ years of expertise in rack manufacturing. Serving all 38 districts of Tamil Nadu with premium display and storage rack solutions.',
-        h1: 'About Racks Madurai - Your Trusted Rack Manufacturer',
+        metaTitle: 'About AK Racks Madurai | Leading Rack Manufacturers in Tamil Nadu',
+        metaDescription: 'Learn about AK Racks Madurai - 10+ years of expertise in rack manufacturing. Serving all 38 districts of Tamil Nadu with premium display and storage rack solutions.',
+        h1: 'About AK Racks Madurai - Your Trusted Rack Manufacturer',
         primaryKeyword: 'rack manufacturers tamil nadu',
         keywords: [
             'about racks madurai',
@@ -280,9 +280,9 @@ export const seoPages: PageSEOConfig[] = [
     {
         slug: 'contact-racks-madurai',
         title: 'Contact Us',
-        metaTitle: 'Contact Racks Madurai | Get Free Quote | Rack Manufacturer Madurai',
-        metaDescription: 'Contact Racks Madurai for premium rack solutions. Call +91 99946 12609 or WhatsApp for free quotes. Factory-direct pricing. Pan Tamil Nadu delivery & installation.',
-        h1: 'Contact Racks Madurai',
+        metaTitle: 'Contact AK Racks Madurai | Get Free Quote | Rack Manufacturer Madurai',
+        metaDescription: 'Contact AK Racks Madurai for premium rack solutions. Call +91 99946 12609 or WhatsApp for free quotes. Factory-direct pricing. Pan Tamil Nadu delivery & installation.',
+        h1: 'Contact AK Racks Madurai',
         primaryKeyword: 'contact rack manufacturer madurai',
         keywords: [
             'contact racks madurai',
@@ -408,7 +408,7 @@ export const internalLinks = {
         { text: 'Garment Store Racks', href: '/garment-racks' },
         { text: 'Heavy Duty Industrial Racks', href: '/heavy-duty-industrial-racks' },
         { text: 'Custom Rack Manufacturer', href: '/custom-rack-manufacturer' },
-        { text: 'About Racks Madurai', href: '/about-racks-madurai' },
+        { text: 'About AK Racks Madurai', href: '/about-racks-madurai' },
         { text: 'Contact Us', href: '/contact-racks-madurai' },
     ],
     products: [
